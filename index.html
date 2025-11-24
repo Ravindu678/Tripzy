@@ -3,10 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Tripzy - Explore the World</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F2E2CE;
+        }
+
+        .navbar {
+            padding: 20px 0;
+            background-color: #F2E2CE;
+        }
+
+        .navbar .nav-link {
+            color: black !important;
+            font-weight: bold;
+      }
+
+        .hero {
+            position: relative;
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+        }
+
+        .hero-content {
+            position: absolute;
+            bottom: 30px;
+            left: 40px;
+            color: white;
+        }
+
+        .hero button {
+            margin-top: 10px;
+        }
+
+        .package-card img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        footer {
+            background: #c75a27;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
 </head>
+
 <body>
-    <p>Welcome to the Home Page!</p>
-    
+
+    <nav class="navbar navbar-expand-lg bg-F2E2CE shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <img src="images/Logo.jpeg" alt="Tripzy Logo" width="50" height="50"  style="border-radius: 50%;">
+            </a>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="#">Tours</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="hero" style="background-image: url('images/images\ \(1\).jpeg');">
+            <div class="hero-content">
+                <h1 class="fw-bold">Welcome to Tripzy</h1>
+                <p>"Explore the world with us"</p>
+                <button class="btn btn-warning fw-bold px-4">View Packages</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h3 class="fw-bold mb-4">Featured Packages</h3>
+
+        <div class="row g-4">
+
+            <div class="col-md-6">
+                <div class="card package-card shadow-sm">
+                    <img src="images/download.jpeg" class="card-img-top" alt="Ella Tour">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Ella Adventure Tour</h5>
+                        <p class="mb-1"><strong>Location:</strong> Ella, Sri Lanka</p>
+                        <p class="mb-1"><strong>Duration:</strong> 3 Days</p>
+                        <p><strong>Price:</strong> $180</p>
+                        <a href="#" class="btn btn-primary px-4">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card package-card shadow-sm">
+                    <img src="images/images (1).jpeg" class="card-img-top" alt="Dubai City Experience">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Dubai City Experience</h5>
+                        <p class="mb-1"><strong>Location:</strong> Dubai</p>
+                        <p class="mb-1"><strong>Duration:</strong> 4 Days</p>
+                        <p><strong>Price:</strong> $600</p>
+                        <a href="#" class="btn btn-primary px-4">View</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>
+                <a href="#">Home</a> | 
+                <a href="#">Tours</a> | 
+                <a href="#">About</a> | 
+                <a href="#">Contact</a> | 
+                <a href="#">Terms & Conditions</a> | 
+                <a href="#">Privacy Policy</a>
+            </p>
+            <p class="mt-3">Tripzy - 2025<br>All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
