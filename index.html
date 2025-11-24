@@ -7,6 +7,9 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap" rel="stylesheet">
+
+
     <style>
         
         body {
@@ -22,7 +25,15 @@
         .navbar .nav-link {
             color: black !important;
             font-weight: bold;
-      }
+       }
+      .crimson-font {
+        font-family: 'Crimson Text', serif;
+       }
+
+       .crimson-text {
+        font-family: 'Crimson Text', serif;
+        color: #000; /* optional, change text color if needed */
+    }
 
         .hero {
             position: relative;
@@ -33,10 +44,13 @@
         }
 
         .hero-content {
-            position: absolute;
-            bottom: 30px;
-            left: 40px;
-            color: white;
+           display: flex;
+           flex-direction: column; 
+           justify-content: center; 
+           align-items: center; 
+           text-align: center; 
+           height: 100vh;
+           color: white;
         }
 
         .hero button {
@@ -88,26 +102,27 @@
     </nav>
 
     <div class="container mt-4">
-        <div class="hero" style="background-image: url('images/images\ \(1\).jpeg');">
+        <div class="hero" style="background-image: url('images/pexels-thilina-alagiyawanna-3266092-34861077.jpg');">
             <div class="hero-content">
                 <h1 class="fw-bold">Welcome to Tripzy</h1>
                 <p>"Explore the world with us"</p>
-                <button class="btn btn-warning fw-bold px-4">View Packages</button>
+                <a href="package.html" class="btn btn-warning fw-bold px-4">View Packages</a>
+
             </div>
         </div>
     </div>
 
     <div class="container my-5">
-        <h3 class="fw-bold mb-4">Featured Packages</h3>
+        <h3 class="fw-bold mb-4 crimson-font">Featured Packages</h3>
 
         <div class="row g-4">
 
             <div class="col-md-6">
-                <div class="card package-card shadow-sm">
-                    <img src="images/download.jpeg" class="card-img-top" alt="Ella Tour">
+                 <div class="card package-card shadow-sm crimson-text">
+                    <img src="images/kandy.jpeg" class="card-img-top" alt="Kandy">
                     <div class="card-body">
-                        <h5 class="card-title fw-bold">Ella Adventure Tour</h5>
-                        <p class="mb-1"><strong>Location:</strong> Ella, Sri Lanka</p>
+                        <h5 class="card-title fw-bold">Kandy Cultural Experience</h5>
+                        <p class="mb-1"><strong>Location:</strong> Kandy, Sri Lanka</p>
                         <p class="mb-1"><strong>Duration:</strong> 3 Days</p>
                         <p><strong>Price:</strong> $180</p>
                         <a href="#" class="btn btn-primary px-4">View</a>
@@ -116,11 +131,11 @@
             </div>
 
             <div class="col-md-6">
-                <div class="card package-card shadow-sm">
-                    <img src="images/images (1).jpeg" class="card-img-top" alt="Dubai City Experience">
+                 <div class="card package-card shadow-sm crimson-text">
+                    <img src="images/gall.jpeg" class="card-img-top" alt="gall">
                     <div class="card-body">
-                        <h5 class="card-title fw-bold">Dubai City Experience</h5>
-                        <p class="mb-1"><strong>Location:</strong> Dubai</p>
+                        <h5 class="card-title fw-bold">Galle Fort & Beach</h5>
+                        <p class="mb-1"><strong>Location:</strong> Galle, Sri Lanka</p>
                         <p class="mb-1"><strong>Duration:</strong> 4 Days</p>
                         <p><strong>Price:</strong> $600</p>
                         <a href="#" class="btn btn-primary px-4">View</a>
