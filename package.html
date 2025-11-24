@@ -13,14 +13,15 @@
             font-family: Arial, sans-serif;
         }
 
-        .custom-nav {
-            background-color: #bbdef0;
+        .navbar {
+            padding: 20px 0;
+            background-color: #F2E2CE;
         }
 
         .navbar .nav-link {
             color: black !important;
             font-weight: bold;
-        }
+      }
 
         .logo-round {
             border-radius: 50%;
@@ -55,11 +56,10 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg shadow-sm custom-nav">
+     <nav class="navbar navbar-expand-lg bg-F2E2CE shadow-sm">
         <div class="container">
-
-            <a class="navbar-brand fw-bold" href="#">
-                <img src="images/Logo.jpeg" width="50" height="50" class="logo-round">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <img src="images/Logo.jpeg" alt="Tripzy Logo" width="50" height="50"  style="border-radius: 50%;">
             </a>
 
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
@@ -68,13 +68,12 @@
 
             <div class="collapse navbar-collapse" id="navMenu">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="destinations.html">Tours</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="package.html">Tours</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="contact.html">Contact</a></li>
                 </ul>
             </div>
-
         </div>
     </nav>
 
