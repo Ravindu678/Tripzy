@@ -27,9 +27,10 @@
             font-weight: bold;
         }
 
-        /* Contact Box */
+        /* Responsive Contact Box */
         .contact-box {
-            width: 500px;
+            max-width: 500px;   /* allows shrinking on small screens */
+            width: 90%;         /* responsive width */
             background: #dcdcdc;
             padding: 40px 30px;
             margin: auto;
@@ -83,6 +84,17 @@
             margin: 0 8px;
             text-decoration: none;
             font-weight: 600;
+        }
+
+        /* Extra small screens */
+        @media (max-width: 576px) {
+            h3.fw-bold {
+                font-size: 22px;
+            }
+
+            .contact-box {
+                padding: 30px 20px;
+            }
         }
     </style>
 </head>
