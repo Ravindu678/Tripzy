@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Tripzy</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f7e9cf;
+            font-family: 'Crimson Text', serif;
+        }
+
+        .navbar {
+            padding: 20px 0;
+            background-color: #F2E2CE;
+        }
+
+        .navbar .nav-link {
+            color: black !important;
+            font-weight: bold;
+        }
+
+        /* Contact Box */
+        .contact-box {
+            width: 500px;
+            background: #dcdcdc;
+            padding: 40px 30px;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        .contact-box input,
+        .contact-box textarea {
+            background: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            margin-bottom: 15px;
+            border-radius: 4px;
+        }
+
+        .contact-box textarea {
+            height: 120px;
+            resize: none;
+        }
+
+        .send-btn {
+            background: #1f63b7;
+            color: white;
+            font-weight: bold;
+            width: 120px;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        .send-btn:hover {
+            background: #0d4a97;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .footer {
+            text-align: center;
+            background-color: #c75a27;
+            color: #fff;
+            padding: 25px 0;
+            margin-top: 40px;
+        }
+
+        .footer a {
+            color: white;
+            margin: 0 8px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">
+            <img src="images/Logo.jpeg" width="50" height="50" style="border-radius: 50%;">
+        </a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link fw-semibold" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link fw-semibold" href="package.html">Tours</a></li>
+                <li class="nav-item"><a class="nav-link fw-semibold" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link fw-semibold" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- CONTACT TITLE -->
+<div class="container text-center mt-5">
+    <h3 class="fw-bold">Contact Us..</h3>
+</div>
+
+<!-- CONTACT FORM BOX -->
+<div class="contact-box mt-4">
+    <input type="text" placeholder="Name">
+    <input type="email" placeholder="Email">
+    <input type="text" placeholder="Phone">
+    <textarea placeholder="Message"></textarea>
+
+    <div class="text-center">
+        <button class="send-btn">Send</button>
+    </div>
+</div>
+
+<!-- CONTACT INFO -->
+<div class="contact-info">
+    <h5 class="fw-bold">Contact Info</h5>
+    <p>wariyapola, Kurunegala. &nbsp;&nbsp; tripzy@gmail.com &nbsp;&nbsp; 0711650036</p>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <p>
+        <a href="#">Home</a> |
+        <a href="#">Tours</a> |
+        <a href="#">About</a> |
+        <a href="#">Contact</a> |
+        <a href="#">Terms & Conditions</a> |
+        <a href="#">Privacy Policy</a>
+    </p>
+
+    <p>Tripzy - 2025</p>
+    <p>All Rights Reserved</p>
+</div>
+
+</body>
+</html>
