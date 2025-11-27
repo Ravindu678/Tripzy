@@ -105,7 +105,7 @@ body {
             border-radius: 10px;
         }
 
-        footer {
+       footer {
             background: #c75a27;
             color: white;
             padding: 20px 0;
@@ -115,8 +115,8 @@ body {
         footer a {
             color: white;
             margin: 0 10px;
-            font-weight: bold;
             text-decoration: none;
+            font-weight: bold;
         }
 
  /*package details page styles*/
@@ -178,19 +178,18 @@ body {
             color: #fff;
         }
 
-        footer {
-            background-color: #e35d31;
+       footer {
+            background: #c75a27;
             color: white;
-            text-align: center;
             padding: 20px 0;
-            font-size: 14px;
-            font-weight: bold;
+            text-align: center;
         }
 
         footer a {
             color: white;
+            margin: 0 10px;
             text-decoration: none;
-            margin: 0 5px;
+            font-weight: bold;
         }
 
 /*contact page styles*/
@@ -253,19 +252,18 @@ body {
             margin-top: 40px;
         }
 
-        .footer {
+        footer {
+            background: #c75a27;
+            color: white;
+            padding: 20px 0;
             text-align: center;
-            background-color: #c75a27;
-            color: #fff;
-            padding: 25px 0;
-            margin-top: 40px;
         }
 
-        .footer a {
+        footer a {
             color: white;
-            margin: 0 8px;
+            margin: 0 10px;
             text-decoration: none;
-            font-weight: 600;
+            font-weight: bold;
         }
 
         @media (max-width: 576px) {
@@ -340,10 +338,6 @@ body {
             margin: 0 8px;
             text-decoration: none;
             font-weight: 600;
-        }
-
-        .footer a:hover {
-            text-decoration: underline;
         }
 
         .footer p {

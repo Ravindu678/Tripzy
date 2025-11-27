@@ -40,14 +40,19 @@
 </div>
 
 <div class="contact-box mt-4">
-    <input type="text" placeholder="Name">
-    <input type="email" placeholder="Email">
-    <input type="text" placeholder="Phone">
-    <textarea placeholder="Message"></textarea>
+    <input type="text" id="name" placeholder="Name">
+    <input type="email" id="email" placeholder="Email">
+    <input type="text" id="phone" placeholder="Phone">
+    <textarea id="message" placeholder="Message"></textarea>
 
     <div class="text-center">
-        <button class="send-btn">Send</button>
+        <button class="send-btn" id="sendBtn">Send</button>
     </div>
+
+    <p id="thankMsg" style="color: green; font-weight: bold; text-align: center; margin-top: 10px; display: none;">
+    Thank you for contacting us! We will get back to you soon.
+    </p>
+    
 </div>
 
 <div class="contact-info">
@@ -57,17 +62,36 @@
 
 <div class="footer">
     <p>
-        <a href="#">Home</a> |
-        <a href="#">Tours</a> |
-        <a href="#">About</a> |
-        <a href="#">Contact</a> |
-        <a href="#">Terms & Conditions</a> |
-        <a href="#">Privacy Policy</a>
+        <a href="index.html">Home</a> |
+        <a href="package.html">Tours</a> |
+        <a href="about.html">About</a> |
+        <a href="contact.html">Contact</a>  
     </p>
 
     <p>Tripzy - 2025</p>
     <p>All Rights Reserved</p>
 </div>
+
+<script>
+document.getElementById("sendBtn").addEventListener("click", function () {
+
+    // show thank you message
+    const msg = document.getElementById("thankMsg");
+    msg.style.display = "block";
+
+    // clear form
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("phone").value = "";
+    document.getElementById("message").value = "";
+
+    // auto-hide after 4 seconds (optional)
+    setTimeout(() => {
+        msg.style.display = "none";
+    }, 4000);
+});
+</script>
+
 
 </body>
 </html>
