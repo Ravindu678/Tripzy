@@ -1,0 +1,351 @@
+/*index page styles*/
+
+ body {
+            font-family: 'Crimson Text', serif;
+            background-color: #F2E2CE;
+        }
+
+        .navbar {
+            padding: 20px 0;
+            background-color: #F2E2CE;
+        }
+
+        .navbar .nav-link {
+            color: black !important;
+            font-weight: bold;
+       }
+      .crimson-font {
+        font-family: 'Crimson Text', serif;
+       }
+
+       .crimson-text {
+        font-family: 'Crimson Text', serif;
+        color: #000; 
+    }
+
+        .hero {
+            position: relative;
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+        }
+
+        .hero-content {
+           display: flex;
+           flex-direction: column; 
+           justify-content: center; 
+           align-items: center; 
+           text-align: center; 
+           height: 100vh;
+           color: white;
+        }
+
+        .hero button {
+            margin-top: 10px;
+        }
+
+        .package-card img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        footer {
+            background: #c75a27;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+/*package page styles*/
+
+body {
+            background-color: #faead7;
+            font-family: 'Crimson Text', serif;
+        }
+
+        .navbar {
+            padding: 20px 0;
+            background-color: #F2E2CE;
+        }
+
+        .navbar .nav-link {
+            color: black !important;
+            font-weight: bold;
+      }
+
+      .crimson-text {
+        font-family: 'Crimson Text', serif;
+        color: #000; 
+    }
+
+     .crimson-font {
+        font-family: 'Crimson Text', serif;
+    }
+
+        .logo-round {
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .package-card img {
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .package-card {
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #c75a27;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            margin: 0 10px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+ /*package details page styles*/
+ 
+  body {
+            background-color: #f7e9cf;
+            font-family: 'Crimson Text', serif;
+        }
+        .navbar {
+            padding: 20px 0;
+            background-color: #F2E2CE;
+        }
+
+        .navbar .nav-link {
+            color: black !important;
+            font-weight: bold;
+        }
+
+        .package-card {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 700px;
+            margin: 30px auto;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .package-card img {
+            border-radius: 10px;
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        .package-info {
+            margin-bottom: 15px;
+            font-size: 0.95rem;
+            color: #333;
+        }
+
+        .package-info strong {
+            font-weight: bold;
+        }
+
+        .key-highlights {
+            margin-bottom: 15px;
+        }
+
+        .book-btn {
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+
+        .book-btn:hover {
+            background-color: #0056b3;
+            color: #fff;
+        }
+
+        footer {
+            background-color: #e35d31;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+/*contact page styles*/
+
+ body {
+            background-color: #f7e9cf;
+            font-family: 'Crimson Text', serif;
+        }
+
+        .navbar {
+            padding: 20px 0;
+            background-color: #F2E2CE;
+        }
+
+        .navbar .nav-link {
+            color: black !important;
+            font-weight: bold;
+        }
+
+        .contact-box {
+            max-width: 500px;   
+            width: 90%;         
+            background: #dcdcdc;
+            padding: 40px 30px;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        .contact-box input,
+        .contact-box textarea {
+            background: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            margin-bottom: 15px;
+            border-radius: 4px;
+        }
+
+        .contact-box textarea {
+            height: 120px;
+            resize: none;
+        }
+
+        .send-btn {
+            background: #1f63b7;
+            color: white;
+            font-weight: bold;
+            width: 120px;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        .send-btn:hover {
+            background: #0d4a97;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .footer {
+            text-align: center;
+            background-color: #c75a27;
+            color: #fff;
+            padding: 25px 0;
+            margin-top: 40px;
+        }
+
+        .footer a {
+            color: white;
+            margin: 0 8px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        @media (max-width: 576px) {
+            h3.fw-bold {
+                font-size: 22px;
+            }
+
+            .contact-box {
+                padding: 30px 20px;
+            }
+        }
+
+/*about page styles*/
+
+ body {
+            background-color: #f7e9cf;
+            font-family: 'Crimson Text', serif;
+        }
+
+        .navbar {
+            padding: 20px 0;
+            background-color: #F2E2CE;
+        }
+
+        .navbar .nav-link {
+            color: black !important;
+            font-weight: bold;
+        }
+
+        h2, h3, h4 {
+            font-family: 'Crimson Text', serif;
+            font-weight: 700;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+
+        .about-frame {
+            background: #3dc6e0;
+            border-radius: 12px;
+            overflow: hidden; 
+            margin-bottom: 30px;
+        }
+
+        .about-frame img {
+            width: 100%;
+            height: 350px; 
+            object-fit: cover;
+        }
+
+        .about-frame .info-box {
+            background: #3dc6e0 !important;
+            border-radius: 0;
+            padding: 30px;
+            margin: 0;
+        }
+
+        .footer {
+            text-align: center;
+            background-color: #c75a27;
+            color: #fff;
+            padding: 25px 0;
+            margin-top: 40px;
+        }
+
+        .footer a {
+            color: white;
+            margin: 0 8px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
