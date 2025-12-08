@@ -75,17 +75,17 @@
 <script>
 document.getElementById("sendBtn").addEventListener("click", function () {
 
-    // show thank you message
+    
     const msg = document.getElementById("thankMsg");
     msg.style.display = "block";
 
-    // clear form
+    
     document.getElementById("name").value = "";
     document.getElementById("email").value = "";
     document.getElementById("phone").value = "";
     document.getElementById("message").value = "";
 
-    // auto-hide after 4 seconds (optional)
+    
     setTimeout(() => {
         msg.style.display = "none";
     }, 4000);
